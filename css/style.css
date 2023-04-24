@@ -1,0 +1,20 @@
+  @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap'
+);
+*{
+/* Universal selector*/
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*root*/
+:root{
+    --primaryColor: black;
+    --secondaryColor: white; 
+    --alternateColor: gray;
+    --borderColor: #fdfd07;
+    font-family: 'Playfair Display', serif;
+}
+/*logo*/
+#logo {
+    width: 5rem;
+}
